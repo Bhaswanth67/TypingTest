@@ -9,12 +9,23 @@ Technologies Used:
 Frontend Technologies:
 
 HTML: Used for structuring the content and layout of the game. It includes elements like headings, input fields, buttons, and result displays.
-CSS: Utilized for styling the game interface. This includes custom animations, transitions, and responsive design to ensure a visually appealing experience. Key features include:
+
+CSS: Utilized for styling the game interface. This includes custom animations, transitions, and responsive design to ensure a visually appealing experience. 
+
+Key features include:
+
 Animations: The heading changes colors in a gradient effect, and buttons have hover effects for a dynamic user experience.
+
 Responsive Design: Ensures the game looks good on various screen sizes by using flexible layouts and media queries.
-JavaScript: Powers the game’s interactive features and logic. Key functionalities include:
+
+JavaScript: Powers the game’s interactive features and logic. 
+
+Key functionalities include:
+
 Event Handling: Listens for user inputs and mouse movements to update the game state.
+
 Particle Effects: Creates visual effects (particles) when the user interacts with the screen.
+
 Game Logic: Manages typing speed calculation, timer, and mistake tracking.
 
 Canvas API:
@@ -28,10 +39,15 @@ No Backend Required: For this game’s scope, no backend is necessary. All funct
 Design and UX:
 
 User Interface: Features a clean and intuitive layout with a central game area, easily accessible settings, and clear result displays.
+
 Interactive Elements: Includes buttons for starting, ending, and retrying the test, as well as a popup to display results.
+
 Feedback Mechanisms: Provides real-time feedback on typing accuracy and speed through color-coded text and detailed result metrics.
+
 Additional Features:
 
 Difficulty Levels: Allows users to select different levels of difficulty, adjusting the text length and complexity accordingly.
+
 Timer Options: Users can choose from multiple timer durations, ranging from 30 seconds to 10 minutes, to tailor the test to their practice needs.
+
 Result Display: After the test, a popup shows detailed statistics, including WPM, CPM, and mistakes, helping users assess their performance.
