@@ -51,3 +51,9 @@ Difficulty Levels: Allows users to select different levels of difficulty, adjust
 Timer Options: Users can choose from multiple timer durations, ranging from 30 seconds to 10 minutes, to tailor the test to their practice needs.
 
 Result Display: After the test, a popup shows detailed statistics, including WPM, CPM, and mistakes, helping users assess their performance.
+
+
+
+**Live Demo:** [Try the Typing Test Game](https://bhaswanth67.github.io/TypingTest/)
+
+
