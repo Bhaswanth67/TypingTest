@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Typing Speed Test Game</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <canvas id="particleCanvas"></canvas>
+    <div class="wrapper">
+        <h1>Typing Test Game</h1>
+        <div class="settings">
+            <label for="timer">Select Timer:</label>
+            <select id="timer" class="timer-select">
+                <option value="30">30 seconds</option>
+                <option value="60" selected>1 minute</option>
+                <option value="180">3 minutes</option>
+                <option value="300">5 minutes</option>
+                <option value="600">10 minutes</option>
+            </select>
+        </div>
+        <input type="text" class="input-field" placeholder="Start typing here...">
+        <div class="content-box">
+            <div class="typing-text">
+                <p></p>
+            </div>
+            <div class="content">
+                <ul class="result-details">
+                    <li class="time">
+                        <p>Time Left:</p>
+                        <span><b>60</b> s</span>
+                    </li>
+                    <li class="mistake">
+                        <p>Mistakes:</p>
+                        <span>0</span>
+                    </li>
+                    <li class="wpm">
+                        <p>WPM:</p>
+                        <span>0</span>
+                    </li>
+                    <li class="cpm">
+                        <p>CPM:</p>
+                        <span>0</span>
+                    </li>
+                </ul>
+                <div class="button-group">
+                    <button id="start-btn" class="primary-btn">Start</button>
+                    <button id="try-again-btn" class="secondary-btn">Try Again</button>
+                    <button id="end-btn" class="secondary-btn">End</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>Typing Test Results</h2>
+            <p id="popup-wpm">WPM: 0</p>
+            <p id="popup-cpm">CPM: 0</p>
+            <p id="popup-mistakes">Mistakes: 0</p>
+            <button id="popup-close" class="primary-btn">Close</button>
+        </div>
+    </div>
+
+    <script src="js/paragraphs.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/particle-effect.js"></script>
+</body>
+</html>
