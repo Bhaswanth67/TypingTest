@@ -1,0 +1,22 @@
+const paragraphs = [
+    "The quick brown fox jumps over the lazy dog. This sentence contains every letter of the alphabet at least once, making it a popular choice for typing practice and keyboard testing.",
+    "In the quiet town of Springfield, the sun sets behind the hills, casting long shadows over the fields. Children play in the park, their laughter echoing through the streets as the sky turns shades of orange and pink.",
+    "Technology has advanced rapidly over the past few decades, transforming the way we live, work, and communicate. From smartphones to artificial intelligence, the innovations continue to shape our future.",
+    "The art of storytelling has been a part of human culture for centuries. Through books, movies, and songs, we share our experiences, dreams, and lessons with one another, creating a rich tapestry of collective knowledge.",
+    "Traveling the world opens up new perspectives and experiences. Whether hiking through lush forests, exploring ancient ruins, or tasting exotic cuisines, each journey leaves an indelible mark on the traveler's soul.",
+    "The ocean is a vast and mysterious place, home to countless species of marine life. Its waves crash against the shore, a rhythmic reminder of the power and beauty of nature. Beneath the surface lies a world waiting to be explored.",
+    "In a bustling city, the streets are alive with the sounds of traffic, conversation, and the hum of daily life. Skyscrapers tower above, casting shadows over the sidewalks below, as people from all walks of life go about their routines.",
+    "Music has the power to evoke emotions, tell stories, and bring people together. From classical symphonies to modern pop hits, each genre offers a unique way to connect with our feelings and the world around us.",
+    "The night sky is a canvas painted with stars, planets, and galaxies. Stargazing invites us to ponder the mysteries of the universe and our place within it, reminding us of the vastness of space and the beauty of the cosmos.",
+    "A well-crafted meal can be a work of art, combining flavors, textures, and aromas to create a memorable dining experience. Cooking is both a science and an art, requiring precision, creativity, and a love for the culinary craft.",
+    "Education is the key to unlocking potential and creating opportunities. Through learning, we gain knowledge, develop skills, and open doors to new possibilities, shaping our future and the world around us.",
+    "Sports bring people together, fostering teamwork, discipline, and a sense of community. Whether playing or watching, the thrill of competition and the joy of victory are universal experiences that unite us all.",
+    "Nature's beauty is all around us, from the blooming flowers in spring to the vibrant colors of autumn leaves. Taking time to appreciate the natural world can bring peace and inspiration, reminding us of life's simple pleasures.",
+    "Art comes in many forms, from painting and sculpture to dance and theater. Each medium offers a unique way to express creativity and tell stories, capturing the imagination and reflecting the human experience.",
+    "Science seeks to understand the world around us through observation and experimentation. It challenges us to ask questions, seek answers, and push the boundaries of what we know, driving progress and innovation.",
+    "History is a tapestry of events, people, and cultures that have shaped our world. By studying the past, we gain insights into the present and can make informed decisions about the future, learning from both triumphs and mistakes.",
+    "Friendship is a valuable treasure, offering support, joy, and companionship. Through the ups and downs of life, true friends are there to share the journey, providing a source of comfort and strength.",
+    "Literature transports us to different worlds, times, and perspectives. Through the written word, we explore new ideas, experience diverse cultures, and gain a deeper understanding of the human condition.",
+    "Fitness and health are essential for a happy and fulfilling life. Regular exercise, a balanced diet, and mindfulness practices contribute to our physical and mental well-being, helping us to thrive and enjoy life to the fullest.",
+    "Innovation drives progress, pushing the boundaries of what is possible. From groundbreaking technologies to new ways of thinking, innovation challenges the status quo and opens up new horizons for exploration and growth."
+];
