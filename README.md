@@ -1,59 +1,129 @@
-# TypingTest
+# Typing Test Game
+
 The Typing Test Game is an engaging web application designed to boost typing speed and accuracy. Users can select difficulty levels and timer durations to match their skill levels. The game provides real-time feedback on performance, including words per minute (WPM) and characters per minute (CPM).
 
-Overview:
-The Typing Test Game is a modern web-based application designed to enhance typing speed and accuracy through an engaging and interactive interface. The game incorporates various features to cater to different skill levels and provides real-time feedback to help users improve their typing skills.
+## Table of Contents
 
-Technologies Used:
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Components](#components)
+- [Styling](#styling)
+- [Contribution](#contribution)
 
-Frontend Technologies:
+## Features
 
-HTML: Used for structuring the content and layout of the game. It includes elements like headings, input fields, buttons, and result displays.
+- Select timer duration for the typing test (30 seconds, 1 minute, 3 minutes, 5 minutes, 10 minutes).
+- Real-time display of WPM and CPM.
+- Animations for game start and end.
+- Interactive UI with hover effects and color-changing effects.
+- Circle-like background animation when the mouse cursor is outside the typing game box.
+- Option to toggle between light and dark themes.
 
-CSS: Utilized for styling the game interface. This includes custom animations, transitions, and responsive design to ensure a visually appealing experience. 
+## Technologies Used
 
-Key features include:
-
-Animations: The heading changes colors in a gradient effect, and buttons have hover effects for a dynamic user experience.
-
-Responsive Design: Ensures the game looks good on various screen sizes by using flexible layouts and media queries.
-
-JavaScript: Powers the game’s interactive features and logic. 
-
-Key functionalities include:
-
-Event Handling: Listens for user inputs and mouse movements to update the game state.
-
-Particle Effects: Creates visual effects (particles) when the user interacts with the screen.
-
-Game Logic: Manages typing speed calculation, timer, and mistake tracking.
-
-Canvas API:
-
-Particle Effects: Uses the HTML5 Canvas API to draw and animate particles that follow the user’s cursor, enhancing the visual appeal of the game. It dynamically generates particles with varying sizes, speeds, and lifespans.
-
-Backend Technologies:
-
-No Backend Required: For this game’s scope, no backend is necessary. All functionalities are handled on the client side, but a backend could be integrated in the future for saving high scores or user statistics.
-
-Design and UX:
-
-User Interface: Features a clean and intuitive layout with a central game area, easily accessible settings, and clear result displays.
-
-Interactive Elements: Includes buttons for starting, ending, and retrying the test, as well as a popup to display results.
-
-Feedback Mechanisms: Provides real-time feedback on typing accuracy and speed through color-coded text and detailed result metrics.
-
-Additional Features:
-
-Difficulty Levels: Allows users to select different levels of difficulty, adjusting the text length and complexity accordingly.
-
-Timer Options: Users can choose from multiple timer durations, ranging from 30 seconds to 10 minutes, to tailor the test to their practice needs.
-
-Result Display: After the test, a popup shows detailed statistics, including WPM, CPM, and mistakes, helping users assess their performance.
+- **HTML:** Used for structuring the content and layout of the game.
+- **CSS:** Utilized for styling the game interface, including custom animations and responsive design.
+  - Animations: Gradient color changes for headings and hover effects for buttons.
+  - Responsive Design: Ensures the game looks good on various screen sizes.
+- **JavaScript:** Powers the game’s interactive features and logic.
+  - Event Handling: Listens for user inputs and mouse movements to update the game state.
+  - Game Logic: Manages typing speed calculation, timer, and mistake tracking.
+- **React:** A JavaScript library for building user interfaces.
+- **Bootstrap:** Ensures responsiveness and better styling across various screens.
 
 
+## Usage
 
-**Live Demo:** [Try the Typing Test Game](https://bhaswanth67.github.io/TypingTest/)
+1. Select a difficulty level (Easy, Medium, Hard) from the dropdown menu.
+2. Select a timer duration from the options provided (30 seconds, 1 minute, 3 minutes, 5 minutes, 10 minutes).
+3. Click the "Start" button to begin the test.
+4. Type the displayed text in the input field as quickly and accurately as possible.
+5. When the timer ends, a popup will display your typing speed (WPM), characters per minute (CPM), and accuracy.
+6. Click "Try Again" to restart the test or "End" to exit.
 
+## Project Structure
 
+```
+TypingTest/
+├── public/
+│   ├── index.html
+├── src/
+│   ├── components/
+│   │   ├── App.js
+│   │   ├── TypingTest.js
+│   │   ├── DifficultySelector.js
+│   │   ├── StartAnimation.js
+│   │   ├── EndAnimation.js
+│   │   └── animations.css
+│   ├── data/
+│   │   └── data.js
+│   ├── styles/
+│   │   ├── App.css
+│   └── index.js
+├── .gitignore
+├── package.json
+└── README.md
+```
+
+### Components
+
+- **App.js:** The main component that contains the application logic and UI elements.
+- **TypingTest.js:** Manages the typing test logic, including input handling, timer, and displaying the test paragraph.
+- **DifficultySelector.js:** Allows users to select the difficulty level of the test.
+- **StartAnimation.js:** Displays an animation when the test starts.
+- **EndAnimation.js:** Displays an animation when the test ends.
+- **animations.css:** Contains the CSS for animations used in the game.
+
+### Styling
+
+- **CSS:** Styles are written in `App.css` and `animations.css` to create a responsive design and apply custom animations. The styles ensure a visually appealing interface with dynamic effects.
+
+    ```css
+    .App {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background-color: #f0f4f8;
+    }
+
+    .typing-test {
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #fff;
+    }
+
+    .start-button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .start-button:hover {
+      background-color: #0056b3;
+    }
+
+    .end-animation {
+      animation: fadeOut 1s;
+    }
+
+    @keyframes fadeOut {
+      from { opacity: 1; }
+      to { opacity: 0; }
+    }
+    ```
+
+## Contribution
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+Thank you for using the Typing Test Game!
