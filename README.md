@@ -36,12 +36,11 @@ The Typing Test Game is an engaging web application designed to boost typing spe
 
 ## Usage
 
-1. Select a difficulty level (Easy, Medium, Hard) from the dropdown menu.
-2. Select a timer duration from the options provided (30 seconds, 1 minute, 3 minutes, 5 minutes, 10 minutes).
-3. Click the "Start" button to begin the test.
-4. Type the displayed text in the input field as quickly and accurately as possible.
-5. When the timer ends, a popup will display your typing speed (WPM), characters per minute (CPM), and accuracy.
-6. Click "Try Again" to restart the test or "End" to exit.
+1. Select a timer duration from the options provided (30 seconds, 1 minute, 3 minutes, 5 minutes, 10 minutes).11
+2. Click the "Start" button to begin the test.
+3. Type the displayed text in the input field as quickly and accurately as possible.
+4. When the timer ends, a popup will display your typing speed (WPM), characters per minute (CPM), and accuracy.
+5. Click "Try Again" to restart the test or "End" to exit.
 
 ## Project Structure
 
